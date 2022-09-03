@@ -1,4 +1,4 @@
-//Java Program to Find the Sum of Even and Odd Numbers
+//Write a Java Program to Find the Sum of Even and Odd Numbers
 
 package sanfoundary.Simple;
 
