@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Extract_Digit {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter start Year: ");
+		System.out.print("Enter Year: ");
 		int year = sc.nextInt();
 		sc.close();
 		String s = "";
