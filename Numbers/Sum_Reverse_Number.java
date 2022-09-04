@@ -1,7 +1,5 @@
 //Java Program to Reverse a Number and Find its Sum using do-while Loop
 
-package sanfoundary.Numbers;
-
 import java.util.Scanner;
 
 public class Sum_Reverse_Number {
