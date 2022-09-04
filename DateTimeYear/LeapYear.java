@@ -7,9 +7,9 @@ import java.util.Scanner;
 public class LeapYear {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter start Year: ");
+		System.out.print("Enter start Year: ");
 		int startYear = sc.nextInt();
-		System.out.println("Enter End Year: ");
+		System.out.print("\nEnter End Year: ");
 		int endYear = sc.nextInt();
 		sc.close();
 		leapYearList(startYear, endYear);
