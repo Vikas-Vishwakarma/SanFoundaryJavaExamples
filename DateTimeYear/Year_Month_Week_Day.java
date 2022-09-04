@@ -1,4 +1,4 @@
-package sanfoundary.dateTimeYear;
+//Java Program to Convert Days into Years, Months and week
 
 import java.util.Scanner;
 
