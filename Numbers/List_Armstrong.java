@@ -23,7 +23,7 @@ public class List_Armstrong {
 				int rem = t2 % 10;
 				int result = 1;
 				for (int j = 1; j <= count; j++) {
-					result = result * rem;
+					result *= rem;
 				}
 				arm += result;
 				t2 = t2 / 10;
