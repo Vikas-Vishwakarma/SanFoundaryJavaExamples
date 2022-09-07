@@ -9,3 +9,5 @@ Write a java program to traverse 2D Array Linearly
 Write a java program to find largest and second largest element in Array
 Write a java program to traverse a Array
 Write a java program to find Two Largest Number in a Array
+Write a java program to find kth largest and smallest Element
+Write a java Program to print duplicate element`
