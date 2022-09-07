@@ -1,0 +1,11 @@
+Write java program to sort array in ascending order.
+Write a java program to sort array in descending order.
+Write a java program to Delete a Integer from specified position in Array
+Write a java program to store even and odd elements of Array in 2 seperate elements
+Write a java program to insert a number at specified position
+Write a java program to find Largest Number in  array
+Write a java program to Linear Search Array
+Write a java program to traverse 2D Array Linearly 
+Write a java program to find largest and second largest element in Array
+Write a java program to traverse a Array
+Write a java program to find Two Largest Number in a Array
