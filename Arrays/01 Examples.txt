@@ -10,4 +10,7 @@ Write a java program to find largest and second largest element in Array
 Write a java program to traverse a Array
 Write a java program to find Two Largest Number in a Array
 Write a java program to find kth largest and smallest Element
-Write a java Program to print duplicate element`
+Write a java Program to print duplicate element
+Write a java Program to calculate Average of Numbers in Array
+Write a java Program to increment value by 1 of Array 
+Write a java Program to find Number of Non-repeated Element in Aray
