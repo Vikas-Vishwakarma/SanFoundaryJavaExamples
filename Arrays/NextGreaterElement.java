@@ -1,4 +1,4 @@
-package sanfoundary.Arrays;
+//Write a java Program to Find Next Greater Element in Array
 
 import java.util.*;
 
