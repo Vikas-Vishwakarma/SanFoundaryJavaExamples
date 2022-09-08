@@ -14,3 +14,7 @@ Write a java Program to print duplicate element
 Write a java Program to calculate Average of Numbers in Array
 Write a java Program to increment value by 1 of Array 
 Write a java Program to find Number of Non-repeated Element in Aray
+Write a java Program to find to count occurence of element in array
+Write a java Program to Merge Two Arrays into One Aray
+Write a java Program to find Next Greater Element in Array
+Write a java Program to find Number of Elements in Array
