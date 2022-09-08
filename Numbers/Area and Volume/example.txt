@@ -1,0 +1,9 @@
+Write a java program to find 
+1. Area of Circle
+2. Area of triangle
+3. Area of parallelogram
+4. Area of trapezium
+5. Area of rhombus
+
+
+I have created Method for method to area
