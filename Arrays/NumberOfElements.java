@@ -1,8 +1,6 @@
 //Find Number of Elements in an Array in Java.
 //Java	Java Program to Find the Number of Elements in an Array
 
-package sanfoundary.Arrays;
-
 import java.util.Scanner;
 
 public class NumberOfElements {
