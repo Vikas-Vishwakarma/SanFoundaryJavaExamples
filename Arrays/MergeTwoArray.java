@@ -1,7 +1,5 @@
 //Java Program to Merge Two Arrays
 
-package sanfoundary.Arrays;
-
 import java.util.Scanner;
 
 public class MergeTwoArray {
