@@ -1,7 +1,5 @@
 //Java Program to Count the Number of Occurrence of an Element in an Array
 
-package sanfoundary.Arrays;
-
 import java.util.*;
 
 
