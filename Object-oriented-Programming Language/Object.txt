@@ -1,0 +1,73 @@
+Object
+
+Any entity that has state and behavior is known as an object. For example, a chair, pen, table, keyboard, bike, etc. It can be physical or logical.
+
+An Object can be defined as an instance of a class. An object contains an address and takes up some space in memory. Objects can communicate without knowing the details of each other's data or code. The only necessary thing is the type of message accepted and the type of response returned by the objects.
+
+Example: A dog is an object because it has states like color, name, breed, etc. as well as behaviors like wagging the tail, barking, eating, etc.
+
+State: It is represented by attributes of an object. It also reflects the properties of an object.
+Behavior: It is represented by methods of an object. It also reflects the response of an object with other objects.
+Identity: It gives a unique name to an object and enables one object to interact with other objects.
+
+Declaring Objects (Also called instantiating a class)
+When an object of a class is created, the class is said to be instantiated. All the instances share the attributes and the behavior of the class. But the values of those attributes, i.e. the state are unique for each object. A single class may have any number of instances.
+
+Declaring Object Synatx: 
+class Random{
+    public static void main(String[] args){
+        Random ran; //Random is Class name and ran is Object name 
+    }
+}
+
+Initializing Object Synatx: 
+class Random {
+    public static void main(String[] args){
+        Random ran = new Random(); 
+       // Random is Class name and ran is Object name , Using new Keyword we gave life to object and Random() gives call to constructor
+    }
+}
+
+
+Anonymous objects
+Anonymous objects are objects that are instantiated but are not stored in a reference variable.  
+
+They are used for immediate method calling.
+They will be destroyed after method calling.
+They are widely used in different libraries. For example, in AWT libraries, they are used to perform some action on capturing an event(eg a key press).
+In the example below, when a key is button(referred by the btn) is pressed, we are simply creating anonymous object of EventHandler class for just calling handle method.
+
+
+Ways to create an object of a class
+
+There are four ways to create objects in java. Strictly speaking there is only one way(by using new keyword), and the rest internally use new keyword. 
+
+
+Using new keyword: It is the most common and general way to create an object in java. Example:
+// creating object of class Test
+Test t = new Test();
+
+
+Using Class.forName(String className) method: There is a pre-defined class in java.lang package with name Class. The forName(String className) method returns the Class object associated with the class with the given string name. We have to give a fully qualified name for a class. On calling new Instance() method on this Class object returns new instance of the class with the given string name.
+// creating object of public class Test
+// consider class Test present in com.p1 package
+Test obj = (Test)Class.forName("com.p1.Test").newInstance();
+
+
+
+Using clone() method: clone() method is present in Object class. It creates and returns a copy of the object.
+        
+// creating object of class Test
+Test t1 = new Test();
+
+// creating clone of above object
+Test t2 = (Test)t1.clone();
+
+
+Deserialization: De-serialization is a technique of reading an object from the saved state in a file. Refer Serialization/De-Serialization in java
+            
+FileInputStream file = new FileInputStream(filename);
+ObjectInputStream in = new ObjectInputStream(file);
+Object obj = in.readObject();
+
+A good practice to create an object is using new keyword.

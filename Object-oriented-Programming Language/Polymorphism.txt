@@ -1,0 +1,44 @@
+polymorphism: Ploy means many and Morphism means forms. Many forms
+A single method can many forms
+
+There are two types of polymorphism
+1. Compile Time polymorphism
+2. Run Time polymorphism
+
+
+Compile Time polymorphism: 
+Compile Time polymorphism is also know as Static polymorphism can be achieved via Method Overloading 
+
+Method Overloading: 
+Method should be in same name of method
+Method should be in same class
+Method should have : 
+    1. Different Number Arguments
+    2. Different Sequence of Argument
+    3. Different type of Argument
+
+
+Run Time polymorphism:
+Run Time polymorphism is also known as Dynamic Polymorphism  and can be achieved via Method Overriding
+
+Method Overriding:
+Methods Should same name
+Methods should be different class
+Methods should have: 
+    1. Same number of Argument
+    2. Same Sequence of Argument
+    3. Same type Argument
+To achieve method overriding, There should be inheritanc(IS-A) relation ship between two classes.
+class Parentclass{
+    void display(){
+        //No argument method
+        
+    }
+}
+
+class Childclass extends Parent class{
+    void display(){
+        //No argument method same as parent class
+        //We can modify parent class implementation here
+    }
+}
